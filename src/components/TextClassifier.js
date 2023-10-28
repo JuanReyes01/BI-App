@@ -39,7 +39,7 @@ function TextClassifier() {
       };
 
       // Replace 'http://localhost:8000/predict' with the correct API URL
-      const response = await fetch('http://localhost:8000/predict', requestOptions);
+      const response = await fetch('http://3.145.62.109:8000/predict', requestOptions);
 
       if (response.ok) {
         const data = await response.json();
